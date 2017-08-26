@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Algorithme de Descente">
+      <UniqueIdentifier>{588bdbfc-4d43-4f66-af57-df7a522e56ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recherche par Tabou">
+      <UniqueIdentifier>{ae6f507d-3bae-4518-9b82-b219428ad2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithme Génétique">
+      <UniqueIdentifier>{27544733-c18d-4b41-9aed-bd5b45782fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RecuitSimule">
+      <UniqueIdentifier>{1379fd8f-c445-4e29-8650-e3e4bf5d474b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadProblem.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrice.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithme.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmeDescente.h">
+      <Filter>Algorithme de Descente</Filter>
+    </ClInclude>
+    <ClInclude Include="RechercheTabou.h">
+      <Filter>Recherche par Tabou</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmeGenetique.h">
+      <Filter>Algorithme Génétique</Filter>
+    </ClInclude>
+    <ClInclude Include="RecuitSimule.h">
+      <Filter>RecuitSimule</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="P-Median.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadProblem.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithme.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmeDescente.cpp">
+      <Filter>Algorithme de Descente</Filter>
+    </ClCompile>
+    <ClCompile Include="RechercheTabou.cpp">
+      <Filter>Recherche par Tabou</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmeGenetique.cpp">
+      <Filter>Algorithme Génétique</Filter>
+    </ClCompile>
+    <ClCompile Include="RecuitSimule.cpp">
+      <Filter>RecuitSimule</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
